@@ -46,6 +46,8 @@ group :development, :test do
   
   # Use sqlite3 as the database for Active Record in development
  gem 'sqlite3'
+ 
+ gem 'pry'
 end
 
 group :production do
