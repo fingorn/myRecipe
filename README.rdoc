@@ -10,3 +10,19 @@ description :text
 -summary must be present, between 10 and 150 characters
 
 -description must be present, between 20 and 500 char
+
+Chefs:
+
+What we have already
+Chef model and validations
+Chefs table with columns chefname and email
+
+What we need:
+- Add passwords to chefs table so chefs can be authenticated and logged in
+- User email as log in credentials since email is unique
+- ability to register new chefs to use the app
+- Ability to display chefs profile
+- Ability to list chefs using the app
+- Ability for chefs to log in and out of the app
+- Restrict actions like create recipe, edit and like feature to logged in chefs only
+- Restricting edit of recipes by chefs who created the recipe
